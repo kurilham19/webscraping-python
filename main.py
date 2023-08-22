@@ -30,6 +30,7 @@ for d in list:
     name_list.append(d.contents[0])
 
 # Convert list to csv
+file_name = "ProductList3.csv"
 product_list = {"Name": name_list, "Price": price_list}
 df = pd.DataFrame(product_list)
-df.to_csv("assets/csv/ProductList2.csv")
+df.to_csv(f"assets/csv/{file_name}")
