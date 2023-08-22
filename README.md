@@ -73,7 +73,7 @@ python main.py
 
 ## Result
 
-The main.py will create .csv file to /assets/csv which the name you can define in
+The main.py will create .csv file to `/assets/csv` which the name you can define in
 
 ```python
 # Convert list to csv
